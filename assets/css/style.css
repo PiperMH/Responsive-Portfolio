@@ -227,7 +227,7 @@ footer{
 
 	#bio-image{
 		width: 50%;
-		height: 50%;
+		height:50%;
 	}
 
 	.container{
@@ -278,9 +278,8 @@ footer{
 }
 @media screen and (max-width: 768px){
 	.wrapper{
-		width: 50%;
-		font-size:70%;
-		margin-left:40px;
+		width: 90%;
+		font-size:90%;
 	}
 
 	#bio-image{
@@ -289,19 +288,20 @@ footer{
 	}
 
 	.container{
-		width:50%;
+		width:90%;
 		font-size: 70%;
 	}
 
 	#linksC{
-		width:30%;
-		margin-right: 40px;
+		width:90%;
+		margin-right:25px;
 
 	}
 	#links{
-		width:30%;
-		padding-left:3px;
-		padding-right:3px;
+		width:90%;
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-bottom: 20px;
 	}
 
 	#lin, #stack, #git{
@@ -317,8 +317,8 @@ footer{
 
 	#sq1, #sq2, #sq3, #sq4{
 	width: 46%;
-    height: 125px;
-    margin: 5px;
+    height: 200px;
+    margin: 12px;
 	}
 
 	#name{
@@ -336,23 +336,18 @@ footer{
 }
 @media screen and (max-width: 640px){
 	.wrapper{
-		width: 100%;
-		margin-left:0;
-		margin-top:0;
-		margin-bottom:0;
+		width: 90%;
 		font-size:90%
 	}
 
 	.container{
-		width:100%;
-		margin-right:0;
-		margin-top:0;
-		margin-bottom:0;
+		width:90%;
+		margin-top:20px;
 	}
 
 	#linksC{
-		width:100%;
-		margin:0;
+		width:90%;
+		margin-top:30px;
 	}
 
 	#bio-image{
@@ -380,12 +375,14 @@ footer{
 	}
 
 	#sq1, #sq2, #sq3, #sq4{
-   	margin-left:14px;
+   		width: 100%;
+		height:300px;
+		margin:0px;
+		margin-bottom: 20px;
 	}
 
 	#links{
-		width:100%;
-		margin: 0;
+		width:90%;
 	}
 
 	h2{
